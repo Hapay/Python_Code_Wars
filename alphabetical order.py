@@ -1,0 +1,5 @@
+x = str(input(">"))
+sorted_list = x.replace(" ", "")
+sorted_list = sorted(sorted_list)
+x_sorted = "".join(sorted_list)
+print(x_sorted)
